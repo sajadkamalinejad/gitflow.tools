@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: db-restore
-    image: 
+    image: docker push centher/gitflow:db3 
     resources:
       requests:
         memory: "256Mi"
