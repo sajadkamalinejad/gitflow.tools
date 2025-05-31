@@ -54,7 +54,7 @@ CERT_FILE="cert.yml"
   echo "spec:"
   echo "  secretName: gitflow-tls"
   echo "  issuerRef:"
-  echo "    name: letsencrypt-play"
+  echo "    name: letsencrypt-dns"
   echo "    kind: ClusterIssuer"
   echo "  dnsNames:"
   for domain in "${DOMAINS[@]}"; do
