@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: db-restore
-    image: centher/gitflow:db2
+    image: centher/gitflow:dblatest
     resources:
       requests:
         memory: "256Mi"
